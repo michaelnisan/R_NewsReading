@@ -101,12 +101,3 @@ write.csv(flag, "C:/Program Files (x86)/MT4 Terminal 4/MQL4/Files/01_Macroeconom
 
 
 
-
-
-
-
-
-
-
-
-
