@@ -42,7 +42,7 @@ id_hash <- Sys.time() %>% as.character.POSIXt() %>% openssl::sha1() %>% substr(1
 
 # write the log
 write.csv(summmary_df,
-          paste0("C:/Users/fxtrams/Documents/000_TradingRepo/R_NewsReading/log/s_log-",
+          paste0("C:/Users/Admin/Documents/000_TradingRepo/R_NewsReading/log/s_log-",
                  Sys.Date(), "-", id_hash, ".csv"),
           row.names = F)
 
