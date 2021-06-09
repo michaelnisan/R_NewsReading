@@ -13,7 +13,7 @@ library(magrittr)
 # create data frame
 
 # read restricted news events as strings
-restrictedEvents <- read.csv("C:/Users/fxtrams/Documents/000_TradingRepo/R_NewsReading/RestrictedEvents.csv",
+restrictedEvents <- read.csv("C:/Users/Admin/Documents/000_TradingRepo/R_NewsReading/RestrictedEvents.csv",
                              header = F)
 
 # get url to access the data. URL shall be like this: "https://www.forexfactory.com/calendar?day=dec2.2016"
