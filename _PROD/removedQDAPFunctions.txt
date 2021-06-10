@@ -1,0 +1,26 @@
+# 
+# # # get the polarity scores
+# # pol_US <- heads_US %>% qdap::polarity() #plot(pol_US)
+# # pol_CA <- heads_CA %>% qdap::polarity() #plot(pol_CA)
+# # pol_UK <- heads_UK %>% qdap::polarity() #plot(pol_UK)
+# # 
+# # # Polarity values added
+# # pol_AU <- heads_AU %>% qdap::polarity() #plot(pol_AU)
+# # pol_JP <- heads_JP %>% qdap::polarity() #plot(pol_JP)
+# # pol_NZ <- heads_NZ %>% qdap::polarity() #plot(pol_NZ)
+# # pol_SW <- heads_SW %>% qdap::polarity() #plot(pol_SW)
+# # pol_EU <- heads_EU %>% qdap::polarity() #plot(pol_EU)
+# 
+# 
+# # extract average values
+# ave_US <- pol_US$group$ave.polarity
+# ave_CA <- pol_CA$group$ave.polarity
+# ave_UK <- pol_UK$group$ave.polarity
+# 
+# # averages added
+# ave_AU <- pol_AU$group$ave.polarity
+# ave_JP <- pol_JP$group$ave.polarity
+# ave_NZ <- pol_NZ$group$ave.polarity
+# ave_SW <- pol_SW$group$ave.polarity
+# ave_EU <- pol_EU$group$ave.polarity
+# 
